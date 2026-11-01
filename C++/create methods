@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+class Rectangle{
+public:
+    int length;
+    int breadth;
+
+    Rectangle(int length,int breadth){
+        this->length=length;
+        this->breadth=breadth;
+    }
+ int calculateArea(){
+      int area=length*breadth;
+      return area;
+ }
+ int calculatePerimeter(){
+      int perimeter=2*(length+breadth);
+      return perimeter;
+ }
+};
+ int main(){
+    Rectangle r(2,3);
+    cout<<r.calculateArea();
+    cout<<r.calculatePerimeter();
+    return 0;
+ }

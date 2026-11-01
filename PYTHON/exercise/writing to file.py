@@ -1,0 +1,6 @@
+f=open("inputfile.txt","r+")
+print(f.read())
+f.write("This is the Data Structure and algorithm in python")
+f=open("inputfile.txt","r")
+print(f.read())
+f.close()

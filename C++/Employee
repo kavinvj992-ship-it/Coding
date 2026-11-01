@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+class Employee{
+private:
+      int salary;
+      int empID; 
+
+public:
+       void EmployeeDetails(int a, int s);
+       salary = a;
+       empID = s;
+    }       
+     int getempID(){
+        return empID;
+     }
+     int getsalary(){
+        return salary;
+     }
+};
+
+int main(){
+    Employee e;
+
+
+    ;
+}
